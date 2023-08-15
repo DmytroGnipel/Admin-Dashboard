@@ -1,193 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-</head>
-<body>
-    <div class="wrapper">
-       <div class="header">
-        <div class="topheader">
-            <div class="topleftheader">
-                <img src="icons/search.svg" alt="search icon" class="icon">
-                <input type="search">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin Dashboard</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <div class="topheader">
+                    <div class="topleftheader">
+                        <img src="icons/search.svg" alt="search icon" class="icon">
+                        <input type="search">
+                    </div>
+                    <div class="toprightheader">
+                        <img src="icons/bell.svg" alt="bell icon" class="icon">
+                        <img src="avatars/girl.png" alt="avatar" class="smallAvatar">
+                        <p>Sara Oakley</p>
+                    </div>
+                </div>
+                <div class="bottomheader">
+                    <div class="leftbottomheader">
+                        <img src="avatars/girl.png" alt="avatar">
+                        <div>
+                            <p>Hi there,</p>
+                            <h2>Sara Oakley (@sara)</h2>
+                        </div>
+                    </div>
+                    <div class="rightbotomheader">
+                        <button type="button">New</button>
+                        <button type="button">Upload</button>
+                        <button type="button">Share</button>
+                    </div>
+                </div>
             </div>
-            <div class="toprightheader">
-                <img src="icons/bell.svg" alt="bell icon" class="icon">
-                <img src="avatars/girl.png" alt="avatar" class="smallAvatar">
-                <p>Sara Oakley</p>
+            <div class="sidebar">
+                <div class="logo">
+                    <img src="icons/dashboard.svg" alt="dashboard icon">
+                    <p>Dashboard</p>
+                </div>
+                <div class="panel">
+                    <img src="icons/home.svg" alt="home icon" class="uuu"><p>Home</p>
+                    <img src="icons/profile.svg" alt="profile icon"><p>Profile</p>
+                    <img src="icons/messages.svg" alt="messages icon"><p>Messages</p>
+                    <img src="icons/history.svg" alt="history icon"><p>History</p>
+                    <img src="icons/communities.svg" alt="communities icon"><p>Communities</p>
+                    <div></div><div></div>
+                    <img src="icons/settings.svg" alt="settings icon"><p>Settings</p>
+                    <img src="icons/support.svg" alt="support icon"><p>Support</p>
+                    <img src="icons/privacy.svg" alt="privacy icon"><p>Privacy</p>
+                </div>
             </div>
-            
-                        
-
+            <div class="content">
+                <div>
+                    <h3>Your projects</h3>
+                    <div class="contentgrid">
+                        <div>
+                            <div>
+                                <h4>Super Cool Project</h4>
+                                <p>
+                                Now that you’ve had plenty of practice using Grid, we are going to build a full dashboard design...
+                                </p>
+                            </div>
+                            <div class="icons">
+                                <img src="icons/star.svg" alt="star icon">
+                                <img src="icons/eye.svg" alt="eye icon">
+                                <img src="icons/share.svg" alt="share">
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>Less Cool Project</h4>
+                                <p>
+                                    For this project, use whatever tools you need to get it done, but try to lean on Grid for the majority of the layout work.
+                                </p>
+                            </div>
+                            <div class="icons">
+                                <img src="icons/star.svg" alt="star icon">
+                                <img src="icons/eye.svg" alt="eye icon">
+                                <img src="icons/share.svg" alt="share">
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>Impossible App</h4>
+                                <p>
+                                    Go back through the lessons or practice assignments if you need a refresher...
+                                </p>
+                            </div>
+                            <div class="icons">
+                                <img src="icons/star.svg" alt="star icon">
+                                <img src="icons/eye.svg" alt="eye icon">
+                                <img src="icons/share.svg" alt="share">
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>Easy Peasy App</h4>
+                                <p>
+                                    Set up your HTML and CSS files with some simple dummy content, just to make sure you have...
+                                </p>
+                            </div>
+                            <div class="icons">
+                                <img src="icons/star.svg" alt="star icon">
+                                <img src="icons/eye.svg" alt="eye icon">
+                                <img src="icons/share.svg" alt="share">
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>Add blocker</h4>
+                                <p>
+                                    ...everything linked correctly. Set up your Git repository (refer to past projects if you need a refresher).
+                                </p>
+                            </div>
+                            <div class="icons">
+                                <img src="icons/star.svg" alt="star icon">
+                                <img src="icons/eye.svg" alt="eye icon">
+                                <img src="icons/share.svg" alt="share">
+                            </div>
+                        </div>
+                        <div>   
+                            <div>
+                                <h4>Money Maker</h4>
+                                <p>
+                                    Download a full-resolution copy of the project design file and get a general idea...
+                                </p>
+                            </div>
+                            <div class="icons">
+                                <img src="icons/star.svg" alt="star icon">
+                                <img src="icons/eye.svg" alt="eye icon">
+                                <img src="icons/share.svg" alt="share">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightbar">
+                    <h3>Announcements</h3>
+                    <div class="announcements">
+                        <div>
+                            <h5>Site maintenance</h5>
+                            <p>
+                                ...for how you’re going to need to lay things out in your HTML document. Start by writing out the HTML...
+                            </p>
+                        </div>
+                        <div>
+                            <h5>Community Share Day</h5>
+                            <p>
+                                ...elements for the sidebar, header and main-content containers. In your CSS file, apply Grid properties until...
+                            </p>
+                        </div>
+                        <div>
+                            <h5>Updated Privacy Policy</h5>
+                            <p>
+                                ...you have this basic layout built. Taking it one section at a time, begin nesting child elements...
+                            </p>
+                        </div>
+                    </div>
+                    <h3>Trending</h3>
+                    <div class="trending">
+                        <img src="avatars/boy_1.png" alt="avatar boy_1">
+                        <div>
+                            <p>@bob</p>
+                            <p>World Peace Builder</p>
+                        </div>
+                        <img src="avatars/girl.png" alt="avatar girl">
+                        <div>
+                            <p>@sara</p>
+                            <p>Super Cool Project</p>
+                        </div>
+                        <img src="avatars/boy_2.png" alt="avatar boy_2">
+                        <div>
+                            <p>@tom</p>
+                            <p>Life Changing App</p>
+                        </div>
+                        <img src="avatars/girl_2.png" alt="avatar girl_2">
+                        <div>
+                            <p>@medison</p>
+                            <p>No traffic maker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="bottomheader">
-            <div class="leftbottomheader">
-                <img src="avatars/girl.png" alt="avatar">
-                <div>
-                    <p>Hi there,</p>
-                    <h2>Sara Oakley (@sara)</h2>
-                </div>
-            </div>
-            <div class="rightbotomheader">
-                <button type="button">New</button>
-                <button type="button">Upload</button>
-                <button type="button">Share</button>
-            </div>
-
-        </div>
-       </div>
-       <div class="sidebar">
-            <div class="logo">
-                <img src="icons/dashboard.svg" alt="dashboard icon"><p>Dashboard</p>
-            </div>
-            <div class="panel">
-                <img src="icons/home.svg" alt="home icon" class="uuu"><p>Home</p>
-                <img src="icons/profile.svg" alt="profile icon"><p>Profile</p>
-                <img src="icons/messages.svg" alt="messages icon"><p>Messages</p>
-                <img src="icons/history.svg" alt="history icon"><p>History</p>
-                <img src="icons/communities.svg" alt="communities icon"><p>Communities</p>
-                <div></div><div></div>
-                <img src="icons/settings.svg" alt="settings icon"><p>Settings</p>
-                <img src="icons/support.svg" alt="support icon"><p>Support</p>
-                <img src="icons/privacy.svg" alt="privacy icon"><p>Privacy</p>
-            </div>
-       </div>
-       <div class="content">
-        <div>
-            <h3>Your projects</h3>
-            <div class="contentgrid">
-                <div>
-                    <div>
-                        <h4>Super Cool Project</h4>
-                        <p>
-                            Set up your HTML and CSS files with some simple dummy content, just to make sure you have...
-                        </p>
-                    </div>
-                    <div class="icons">
-                        <img src="icons/star.svg" alt="star icon">
-                        <img src="icons/eye.svg" alt="eye icon">
-                        <img src="icons/share.svg" alt="share">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <h4>Less Cool Project</h4>
-                        <p>
-                            Set up your HTML and CSS files with some simple dummy content, just to make sure you have...
-                        </p>
-                    </div>
-                    <div class="icons">
-                        <img src="icons/star.svg" alt="star icon">
-                        <img src="icons/eye.svg" alt="eye icon">
-                        <img src="icons/share.svg" alt="share">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <h4>3Super Cool Project</h4>
-                        <p>
-                            Set up your HTML and CSS files with some simple dummy content, just to make sure you have...
-                        </p>
-                    </div>
-                    <div class="icons">
-                        <img src="icons/star.svg" alt="star icon">
-                        <img src="icons/eye.svg" alt="eye icon">
-                        <img src="icons/share.svg" alt="share">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <h4>Super Cool Project5</h4>
-                        <p>
-                            Set up your HTML and CSS files with some simple dummy content, just to make sure you have...
-                        </p>
-                    </div>
-                    <div class="icons">
-                        <img src="icons/star.svg" alt="star icon">
-                        <img src="icons/eye.svg" alt="eye icon">
-                        <img src="icons/share.svg" alt="share">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <h4>Super Cool Project</h4>
-                        <p>
-                            Set up your HTML and CSS files with some simple dummy content, just to make sure you have...
-                        </p>
-                    </div>
-                    <div class="icons">
-                        <img src="icons/star.svg" alt="star icon">
-                        <img src="icons/eye.svg" alt="eye icon">
-                        <img src="icons/share.svg" alt="share">
-                    </div>
-                </div>
-                <div>   
-                    <div>
-                    <h4>Super Cool Project</h4>
-                    <p>
-                        Set up your HTML and CSS files with some simple dummy content, just to make sure you have...
-                    </p>
-                    </div>
-                <div class="icons">
-                    <img src="icons/star.svg" alt="star icon">
-                    <img src="icons/eye.svg" alt="eye icon">
-                    <img src="icons/share.svg" alt="share">
-                </div>
-                </div>
-            </div>
-        </div>
-        
-        
-        
-        <div class="leftbar">
-            <h3>Announcements</h3>
-            <div class="announcements">
-                <div>
-                    <h5>Site maintenance</h5>
-                    <p>Now that you’ve had plenty of practice using Grid, we are going to build a full dashboard design...</p>
-                </div>
-                <div>
-                    <h5>Community Share Day</h5>
-                    <p>Set up your HTML and CSS files with some simple dummy content, just to make sure you have...</p>
-                </div>
-                <div>
-                    <h5>Updated Privacy Policy</h5>
-                    <p>Download a full-resolution copy of the project design file and get a general idea for how you’re going...</p>
-                </div>
-                </div>
-            <h3>Trending</h3>
-            <div class="trending">
-                <img src="avatars/boy_1.png" alt="avatar boy_1">
-                <div>
-                    <p>@bob</p>
-                    <p>World Peace Builder</p>
-                </div>
-                <img src="avatars/girl.png" alt="avatar girl">
-                <div>
-                    <p>@sara</p>
-                    <p>Super Cool Project</p>
-                </div>
-                <img src="avatars/boy_2.png" alt="avatar boy_2">
-                <div>
-                    <p>@tom</p>
-                    <p>Life Changing App</p>
-                </div>
-                <img src="avatars/girl_2.png" alt="avatar girl_2">
-                <div>
-                    <p>@medison</p>
-                    <p>No traffic maker</p>
-                </div>
-            </div>
-        </div>
-        
-       </div>
-       
-        
-        
-       </div>
-    </div>
-</body>
+    </body>
 </html>
